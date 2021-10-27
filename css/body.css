@@ -1,0 +1,33 @@
+/* 全局css样式 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 清除链接样式 */
+a {
+    text-decoration: none;
+    /* 设置点击后取消默认高亮效果 */
+    -webkit-tap-highlight-color: transparent;
+}
+/* 1rem = 10px */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* 清除表格样式 */
+ul,li {
+    list-style: none;
+}
+input {
+    /* 设置取消iOS的默认按钮样式 */
+    -webkit-appearance: none;
+}
+a,
+img {
+    /* 禁用长按时弹出菜单 */
+    -webkit-touch-callout: none;
+}
