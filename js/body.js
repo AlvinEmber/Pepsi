@@ -13,16 +13,15 @@ window.addEventListener("load", function () {
 })
 
 $(function () {
-    $(".menuMain").hide();
+    $(".menuMain").stop().hide();
     $(".navListIcon").on("click", function () {
-        $(".menuMain").slideToggle(function () {
-            $(".listTab>a").slideToggle(250);
+        $(".menuMain").stop().slideToggle(function () {
+            $(".listTab>a").stop().slideToggle(250);
         });
     });
 
     $(".productList").hide();
     $(".navTitle").on("click", function () {
-        $(".mainNav").toggleClass("currentNav");
-        $(".productList").slideToggle();
-    });
+        window.location.href = "./product.html"
+    })
 })
