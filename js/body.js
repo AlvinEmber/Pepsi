@@ -7,7 +7,16 @@ window.addEventListener("load", function () {
     var navTitle = document.getElementsByClassName("navTitle")[0];
     // navListIcon 点击打开下拉菜单
     var navListIcon = document.getElementsByClassName("navListIcon")[0];
-    touch.on(navListIcon, 'tap', function () {
-        
-    })
+    // touch.on(navListIcon, 'tap', function () {
+    //     $(".menuMain").toggle(300);
+    // })
+})
+
+$(function () {
+    $(".menuMain").hide();
+    $(".navListIcon").on("click", function () {
+        $(".menuMain").slideToggle(function () {
+            $(".listTab>a").slideToggle(250);
+        });
+    });
 })
