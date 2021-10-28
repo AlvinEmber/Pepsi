@@ -19,4 +19,10 @@ $(function () {
             $(".listTab>a").slideToggle(250);
         });
     });
+
+    $(".productList").hide();
+    $(".navTitle").on("click", function () {
+        $("")
+        $(".productList").slideToggle();
+    });
 })
