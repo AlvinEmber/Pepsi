@@ -22,10 +22,15 @@
 }
 
 .mainNav .navTitle {
-    /* flex: 1; */
     font-size: 1.6rem;
     font-weight: 400;
     color: #fff;
+    overflow: hidden;
+}
+.currentNav .navTitle {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #666;
     overflow: hidden;
 }
 
@@ -38,13 +43,31 @@
     height: 1.2rem;
     background: url('../../img/icon/向下.png') no-repeat;
     background-size: 1.2rem;
+    transition: .3s linear;
+}
+.currentNav .navTitle::after {
+    content: "";
+    overflow: hidden;
+    display: inline-block;
+    margin-left: .7rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    background: url('../../img/icon/向上.png') no-repeat;
+    background-size: 1.2rem;
+    transform: rotate(180deg);
+    transition: .3s linear;
 }
 
 .mainNav .navListIcon {
     display: inline-block;
     width: 3rem;
     height: 3rem;
-    /* position: absolute; */
-    /* right: 0rem; */
+    background-size: 3rem;
+}
+.currentNav .navListIcon {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    background: url("../../img/icon/单列列表展开.png");
     background-size: 3rem;
 }

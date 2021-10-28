@@ -22,7 +22,7 @@ $(function () {
 
     $(".productList").hide();
     $(".navTitle").on("click", function () {
-        $("")
+        $(".mainNav").toggleClass("currentNav");
         $(".productList").slideToggle();
     });
 })
