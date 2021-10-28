@@ -4,7 +4,7 @@
     display: flex;
     box-sizing: border-box;
     padding: 0 1.6rem;
-    background-color: #0065C3;
+    background-color: #fff;
     position: fixed;
     align-items: center;
     justify-content: space-between;
@@ -24,7 +24,7 @@
 .mainNav .navTitle {
     font-size: 1.6rem;
     font-weight: 400;
-    color: #fff;
+    color: #666;
     overflow: hidden;
     cursor: pointer;
 }
@@ -36,25 +36,27 @@
     margin-left: .7rem;
     width: 1.2rem;
     height: 1.2rem;
-    background: url('../../img/icon/向下.png') no-repeat;
+    background: url('../../img/icon/向上.png') no-repeat;
     background-size: 1.2rem;
-    transform: rotate(0deg);
+    transform: rotate(180deg);
     animation: dRotate .2s linear;
 }
 
 @keyframes dRotate {
     0% {
-      transform: rotate(-180deg);
+      transform: rotate(0deg);
     }
   
     100% {
-      transform: rotate(0deg);
+      transform: rotate(180deg);
     }
 }
+  
 
 .mainNav .navListIcon {
     display: inline-block;
     width: 3rem;
     height: 3rem;
+    background: url("../../img/icon/单列列表展开.png");
     background-size: 3rem;
 }
