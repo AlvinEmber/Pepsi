@@ -13,6 +13,10 @@ window.addEventListener("load", function () {
 })
 
 $(function () {
+    $(".navLogo").on("click", function () {
+        window.location.href = "./index.html"
+    })
+
     $(".menuMain").stop().hide();
     $(".navListIcon").on("click", function () {
         $(".menuMain").stop().slideToggle(function () {
