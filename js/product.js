@@ -1,4 +1,8 @@
 $(function () {
+    $(".navLogo").on("click", function () {
+        window.location.href = "./index.html"
+    })
+
     $(".menuMain").hide();
     $(".navListIcon").on("click", function () {
         $(".menuMain").slideToggle(function () {
