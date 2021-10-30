@@ -10,18 +10,25 @@ body {
 }
 
 .main {
+    overflow: hidden;
     width: 100%;
-    height: 100rem;
+    /* height: 467rem; */
+    /* background-color: rgb(38, 92, 197); */
     position: relative;
+    margin-top: 10rem;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: start; */
 }
 
 .main_top {
     width: 100%;
-    height: 64.9rem;
+    height: 65.6rem;
     background: url(../../img/index/background-mobile@3x.jpg) no-repeat;
     background-size: 100%;
-    position: absolute;
-    top: 5rem;
+    position: relative;
+    /* float: left; */
+    /* top: 10rem; */
 }
 
 .main_top>div:nth-of-type(1)>img {
@@ -29,21 +36,520 @@ body {
 }
 
 .main_top>div:nth-of-type(2) {
+    z-index: 2;
     width: 100%;
-    height: 180px;
+    height: 18rem;
     text-align: center;
     position: absolute;
-    top: 19rem;
+    top: 18rem;
     line-height: 5rem;
     letter-spacing: .2rem;
+    color: #10428c;
 }
 
 .main_top>div:nth-of-type(2)>div>img {
-    width: 15rem;
+    width: 18rem;
+}
+
+.main_top>div:nth-of-type(3) {
+    position: absolute;
+    top: 24rem;
+    width: 100%;
+    height: 41.7rem;
+    z-index: 1;
+    background: url(../../img/index/background-floor-mobile-refresh.png) no-repeat;
+    background-size: 100%;
+}
+
+.main_top>div:nth-of-type(2)>div>span {
+    position: absolute;
+    top: 16.5rem;
+    left: 12.5rem;
+    width: 12.7rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    border: 3px solid #eb3754;
+    color: #eb3754;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.main_top>div:nth-of-type(4) {
+    position: absolute;
+    top: 40rem;
+    width: 50%;
+    height: 26rem;
+    z-index: 2;
+    background: url(../../img/index/CreamSodaCan@3x.png) no-repeat;
+    background-size: 100%;
+}
+
+.main_top>div:nth-of-type(5) {
+    position: absolute;
+    top: 35rem;
+    left: 20.5rem;
+    width: 50%;
+    height: 30rem;
+    z-index: 2;
+    background: url(../../img/index/BlackCherryCan@3x.png) no-repeat;
+    background-size: 100%;
 }
 
 
-/* .main_top>div:nth-of-type(3) {
-    z-index: 2;
-    background: url(../../img/index/background-floor-mobile-refresh.png);
+/* 吃汉堡 */
+
+.hamburg {
+    width: 100%;
+    height: 42rem;
+    position: relative;
+    /* float: left; */
+    background: url(../../img/index/PEP_BWP_D@2x.jpg) no-repeat;
+    background-size: cover;
+    background-position-x: -57rem;
+}
+
+.hamburg>img {
+    position: absolute;
+    bottom: 2.5rem;
+    right: 0;
+    width: 86%;
+}
+
+
+/* tab  */
+
+.tab {
+    width: 100%;
+    padding: 2.4rem;
+    height: 29rem;
+    background-color: rgb(38, 92, 197);
+    box-sizing: border-box;
+}
+
+.tab_con {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* .tab_con>ul {
+    width: 100%;
+    height: 100%;
 } */
+
+.item {
+    display: none;
+}
+
+.tab_con>ul>li:nth-of-type(1) {
+    width: 100%;
+    height: 22rem;
+    background: url(../../img/index/Thumbnail_2.jpg) no-repeat;
+    background-size: contain;
+    float: left;
+}
+
+.tab_con>ul>li:nth-of-type(2) {
+    width: 100%;
+    height: 22rem;
+    background: url(../../img/index/Thumbnail.jpg) no-repeat;
+    background-size: contain;
+    float: left;
+}
+
+.tab_con>ul>li:nth-of-type(1)>span,
+.tab_con>ul>li:nth-of-type(2)>span {
+    display: block;
+    width: 100%;
+    height: 4rem;
+    margin-top: 17.5rem;
+    background-color: rgb(20, 55, 191);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.tab_list {
+    width: 100%;
+    height: 2rem;
+}
+
+.tab_list>ul {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.tab_list>ul>li {
+    margin-left: .1rem;
+    margin-right: .1rem;
+    width: .8rem;
+    height: .8rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.tab_list>ul>.current {
+    margin-left: .1rem;
+    margin-right: .1rem;
+    width: 1rem;
+    height: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+
+/* 拼图 */
+
+.puzzle {
+    background-color: #004996;
+    width: 100%;
+    height: 66.7rem;
+    position: relative;
+}
+
+.puzzle>div>img {
+    padding: 0;
+    width: 100%;
+    display: block;
+}
+
+.puzzle>div {
+    position: absolute;
+}
+
+.puzzle>div:nth-of-type(1) {
+    top: 3.5%;
+    left: 6%;
+    width: 64%;
+}
+
+.puzzle>div:nth-of-type(2) {
+    bottom: 0;
+    right: 0;
+    width: 63%;
+}
+
+.puzzle>div:nth-of-type(3) {
+    margin-bottom: 63%;
+    left: 5%;
+    width: 24%;
+    bottom: 0;
+}
+
+.puzzle>div:nth-of-type(4) {
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: 82%;
+}
+
+.puzzle>div:nth-of-type(5) {
+    top: 2%;
+    right: 4%;
+    width: 24%;
+}
+
+
+/* 视频 */
+
+.hero__content {
+    width: 100%;
+    height: 21.1rem;
+    background: url(../../img/index/Snipaste_2021-10-29_09-06-22.png) no-repeat;
+    background-size: contain;
+}
+
+.donghua1 {
+    width: 100%;
+    height: 21.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2, 2, 2);
+}
+
+.donghua1>div>img {
+    width: 80%;
+}
+
+.donghua1>div:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50%;
+}
+
+.donghua1>div:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 47.5%;
+    height: 49%;
+    margin-top: 1.6rem;
+}
+
+.black_colo {
+    margin-top: -1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 42rem;
+    /* background-color: rgb(2, 2, 2); */
+    background-image: linear-gradient(rgb(2, 2, 2, 1), rgb(22, 23, 25, .9));
+}
+
+.black_colo>img {
+    width: 50%;
+}
+
+
+/* 蓝色的可乐 */
+
+.blue_colo {
+    padding-top: 3.5rem;
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(3, 72, 161); */
+    background-image: linear-gradient(rgb(0, 68, 157, 1), rgb(4, 138, 207, .8));
+}
+
+.blue_colo>div {
+    width: 80%;
+}
+
+.blue_colo>div>img {
+    width: 100%;
+}
+
+
+/* 多个可乐 */
+
+.more_colo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85rem;
+    background-image: linear-gradient(rgb(0, 101, 195, .9), rgb(7, 48, 98));
+}
+
+.more_colo>.more_colo_top {
+    width: 80%;
+}
+
+.more_colo>.more_colo_top>img {
+    width: 100%;
+}
+
+.more_colo>.more_colo_cen {
+    width: 80%;
+    text-align: center;
+}
+
+.more_colo>.more_colo_cen>span {
+    /* display: block; */
+    color: white;
+    font-size: 3.8rem;
+    line-height: 2.8rem;
+}
+
+.more_colo>.more_colo_cen>p {
+    margin-top: 2rem;
+    color: white;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
+
+.more_colo>.more_colo_bot {
+    width: 50%;
+    margin-top: 3rem;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 2rem;
+    font-size: 16px;
+    line-height: 31px;
+    color: white;
+}
+
+
+/* .more_colo>.more_colo_bot>span{
+    color: white;
+
+} */
+
+
+/* 分享 */
+
+.share {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.share_top {
+    color: rgb(0, 101, 195);
+    font-size: 4.8rem;
+    text-align: center;
+    line-height: 40px;
+}
+
+.share_bot {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+    flex-wrap: wrap;
+}
+
+.share_bot>div {
+    width: 50%;
+}
+
+.share_bot>div>img {
+    display: block;
+    width: 100%;
+}
+
+
+/*底部*/
+
+.footer {
+    width: 100%;
+    height: 46.9rem;
+    background-color: #0065c3;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.footer_top {
+    width: 100%;
+    height: 33.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+.footer_top>a {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: white;
+}
+
+.footer_bot {
+    padding-bottom: 2rem;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.footer_bot>a {
+    width: 50%;
+    text-align: left;
+    margin-left: .5rem;
+    margin-bottom: .5rem;
+}
+
+.footer_bot>a>img {
+    width: 15%;
+}
+
+.footer_bot>ul {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.footer_bot>ul>li {
+    width: 15%;
+    margin-right: 1rem;
+}
+
+.footer_bot>ul>li>img {
+    width: 100%;
+}
+
+
+/* 播放按钮*/
+
+.main_top>div>.watch {
+    position: relative;
+    font-size: 16px;
+    color: white;
+}
+
+.main_top>div>.watch>.watch_video {
+    line-height: 24px;
+    position: absolute;
+    top: 22px;
+    left: 134px;
+}
+
+.watch_video>span {
+    display: block;
+}
+
+.watch_video>img {
+    width: 40px;
+}
+
+
+/* 第二个播放按钮 */
+
+.item {
+    position: relative;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+.tab_con>ul>.item>.watch_video {
+    line-height: 26px;
+    position: absolute;
+    top: 57px;
+    left: 121px;
+}
+
+
+/* 第四个播放按钮 */
+
+.donghua4 {
+    position: relative;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+}
+
+.donghua4>.watch_video {
+    line-height: 26px;
+    position: absolute;
+    top: 19px;
+    left: 47px;
+}
