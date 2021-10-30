@@ -13,16 +13,22 @@ window.addEventListener("load", function () {
 })
 
 $(function () {
-    $(".menuMain").hide();
+    $(".navLogo").on("click", function () {
+        window.location.href = "./index.html"
+    })
+
+    $(".menuMain").stop().hide();
     $(".navListIcon").on("click", function () {
-        $(".menuMain").slideToggle(function () {
-            $(".listTab>a").slideToggle(250);
+        $(".menuMain").stop().slideToggle(function () {
+            $(".listTab>a").stop().slideToggle(250);
         });
     });
 
     $(".productList").hide();
     $(".navTitle").on("click", function () {
-        $("")
-        $(".productList").slideToggle();
-    });
+        window.location.href = "./product.html"
+    })
+    $(".segment .unit:eq(0)").on("click",function(){
+        window.location.href="./index.html";
+    })
 })

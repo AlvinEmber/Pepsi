@@ -31,7 +31,7 @@ ul,li {
 }
 input {
     /* 设置取消iOS的默认按钮样式 */
-    -webkit-appearance: none;
+    /* -webkit-appearance: none; */
 }
 a,
 img {
