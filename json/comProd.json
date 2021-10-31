@@ -1,0 +1,255 @@
+[
+    {
+        "type": "hero",
+        "slug": "pepsi",
+        "title": "Pepsi",
+        "image_source": "https://www.pepsi.com/en-us/uploads/images/can-pepsi.png?mtime=20180110134757",
+        "background_color": "rgba(0, 101, 195, 0.9)",
+        "background_color_detail": "rgb(0, 101, 195)",
+        "nutrition": {
+            "servingSize": "12 fl oz (355 mL)",
+            "calories": 150,
+            "fat": 0,
+            "sodium": 30,
+            "carbs": 41,
+            "sugar": 41,
+            "protein": 0
+        },
+        "ingredients": "CARBONATED WATER, HIGH FRUCTOSE CORN SYRUP, CARAMEL COLOR, SUGAR, PHOSPHORIC ACID, CAFFEINE, CITRIC ACID, NATURAL FLAVOR",
+        "href": "http://www.pepsicobeveragefacts.com/Home/Product?formula=35005*26*01-01&form=RTD&size=12",
+        "last_updated": "Last updated on January 11, 2018",
+        "metadata": {
+            "class": ""
+        }
+    },
+    {
+        "type": "hero",
+        "slug": "pepsi-zero-sugar",
+        "title": "Pepsi Zero Sugar",
+        "image_source": "https://www.pepsi.com/en-us/uploads/images/can-pepsi-zero-sugar.png",
+        "background_color": "rgba(0, 0, 0, 0.8)",
+        "background_color_detail": "rgb(0, 0, 0)",
+        "nutrition": {
+            "servingSize": "12 fl oz (355 mL)",
+            "calories": 0,
+            "fat": 0,
+            "sodium": 40,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0
+        },
+        "ingredients": "CARBONATED WATER, CARAMEL COLOR, PHOSPHORIC ACID, ASPARTAME, POTASSIUM BENZOATE (PRESERVES FRESHNESS), CAFFEINE, NATURAL FLAVOR, ACESULFAME POTASSIUM, CITRIC ACID, PANAX GINSENG ROOT EXTRACT, CALCIUM DISODIUM EDTA (TO PROTECT FLAVOR)",
+        "href": "http://www.pepsicobeveragefacts.com/Home/product?formula=35005*79*03-01&form=RTD&size=12",
+        "last_updated": "Last updated on January 11, 2018",
+        "metadata": {
+            "class": ""
+        }
+    },
+    {
+        "type": "hero",
+        "slug": "diet-pepsi",
+        "title": "Diet Pepsi",
+        "image_source": "https://www.pepsi.com/en-us/uploads/images/Diet-Pepsi-v2_12oz.png?mtime=20180215173735",
+        "background_color": "rgba(135, 135, 135, 0.9)",
+        "background_color_detail": "rgb(135, 135, 135)",
+        "nutrition": {
+            "servingSize": "12 fl oz (355 mL)",
+            "calories": 0,
+            "fat": 0,
+            "sodium": 35,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0
+        },
+        "ingredients": "CARBONATED WATER, CARAMEL COLOR, ASPARTAME, PHOSPHORIC ACID, POTASSIUM BENZOATE (PRESERVES FRESHNESS), CAFFEINE, CITRIC ACID, NATURAL FLAVOR, ACESULFAME POTASSIUM",
+        "href": "http://www.pepsicobeveragefacts.com/Home/Product?formula=F0000007855&form=RTD&size=12",
+        "last_updated": "Last updated on August 13, 2018",
+        "metadata": {
+            "class": ""
+        }
+    },
+    {
+        "type": "hero",
+        "slug": "pepsi-mango",
+        "title": "Pepsi Mango",
+        "image_source": "https://www.pepsi.com/en-us/uploads/images/can-pepsi-mango.png",
+        "background_color": "rgba(255, 143, 28, 0.9)",
+        "background_color_detail": "rgb(255, 143, 28)",
+        "nutrition": {
+            "servingSize": "12 fl oz (355 mL)",
+            "calories": 150,
+            "fat": 0,
+            "sodium": 95,
+            "carbs": 41,
+            "sugar": 41,
+            "protein": 0
+        },
+        "ingredients": "CARBONATED WATER, HIGH FRUCTOSE CORN SYRUP, CLARIFIED MANGO JUICE CONCENTRATE, CARAMEL COLOR, SODIUM POLYPHOSPHATES (TO PROTECT FLAVOR), PHOSPHORIC ACID, NATURAL FLAVOR, POTASSIUM SORBATE (PRESERVES FRESHNESS), CAFFEINE, GUM ARABIC, CITRIC ACID, CALCIUM DISODIUM EDTA (TO PROTECT FLAVOR)",
+        "href": "https://www.pepsicobeveragefacts.com/Home/product?formula=F0000009170&form=RTD&size=12&PBF",
+        "last_updated": "Last updated on January 11, 2018",
+        "metadata": {
+            "class": ""
+        }
+    },
+    {
+        "type": "regular",
+        "slug": "pepsi-zero-sugar-mango",
+        "title": "Pepsi Zero Sugar Mango",
+        "image_source": "https://www.pepsi.com/en-us/uploads/images/can-pepsi-zero-sugar-mango.png",
+        "background_color": "rgba(255, 143, 28, 0.86)",
+        "background_color_detail": "rgba(255, 143, 28)",
+        "nutrition": {
+            "servingSize": "12 fl oz (355 mL)",
+            "calories": 0,
+            "fat": 0,
+            "sodium": 35,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0
+        },
+        "ingredients": "CARBONATED WATER, CARAMEL COLOR, PHOSPHORIC ACID, ASPARTAME, NATURAL FLAVOR, CAFFEINE, POTASSIUM SORBATE (PRESERVES FRESHNESS), POTASSIUM CITRATE, ACESULFAME POTASSIUM, CITRIC ACID, PHENYLKETONURICS: CONTAINS PHENYLALANINE",
+        "href": "https://www.pepsicobeveragefacts.com/Home/product?formula=F0000011373&form=RTD&size=12&PBF",
+        "last_updated": "Last updated on April 03, 2018",
+        "metadata": {
+            "class": ""
+        }
+    },
+    {
+        "type": "regular",
+        "slug": "pepsi-wild-cherry",
+        "title": "Pepsi Wild Cherry",
+        "image_source": "https://www.pepsi.com/en-us/uploads/images/can-pepsi-cherry-v2.png?mtime=20180110134748",
+        "background_color": "rgba(197, 20, 47, 0.9)",
+        "background_color_detail": "rgb(197, 20, 47)",
+        "nutrition": {
+            "servingSize": "12 fl oz (355 mL)",
+            "calories": 160,
+            "fat": 0,
+            "sodium": 30,
+            "carbs": 42,
+            "sugar": 42,
+            "protein": 0
+        },
+        "ingredients": "CARBONATED WATER, HIGH FRUCTOSE CORN SYRUP, CARAMEL COLOR, SUGAR, PHOSPHORIC ACID, NATURAL FLAVOR, CAFFEINE, CITRIC ACID",
+        "href": "http://www.pepsicobeveragefacts.com/Home/product?formula=92611*03*06-01&form=RTD&size=12",
+        "last_updated": "Last updated on January 11, 2018",
+        "metadata": {
+            "class": ""
+        }
+    },
+    {
+        "type": "regular",
+        "slug": "diet-pepsi-wild-cherry",
+        "title": "Diet Pepsi Wild Cherry",
+        "image_source": "https://www.pepsi.com/en-us/uploads/images/Diet-Pepsi-Cherry-v3_12oz.png?mtime=20180215173734",
+        "background_color": "rgba(135, 135, 135, 0.9)",
+        "background_color_detail": "rgb(135, 135, 135)",
+        "nutrition": {
+            "servingSize": "12 fl oz (355 mL)",
+            "calories": 0,
+            "fat": 0,
+            "sodium": 35,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0
+        },
+        "ingredients": "CARBONATED WATER, CARAMEL COLOR, PHOSPHORIC ACID, NATURAL FLAVOR, ASPARTAME, POTASSIUM BENZOATE (PRESERVES FRESHNESS), POTASSIUM CITRATE, CITRIC ACID, CAFFEINE, ACESULFAME POTASSIUM, CALCIUM DISODIUM EDTA (TO PROTECT FLAVOR)",
+        "href": "http://www.pepsicobeveragefacts.com/Home/Product?formula=92611*03*07-01&form=RTD&size=12",
+        "last_updated": "Last updated on August 13, 2018",
+        "metadata": {
+            "class": ""
+        }
+    },
+    {
+        "type": "regular",
+        "slug": "pepsi-zero-sugar-wild-cherry",
+        "title": "Pepsi Zero Sugar Wild Cherry",
+        "image_source": "https://www.pepsi.com/en-us/uploads/images/Pepsi-Zero-Wild-Cherry-12oz-refreshed-v2.png?mtime=20180403114210",
+        "background_color": "rgba(208, 36, 118, 0.86)",
+        "background_color_detail": "rgba(208, 36, 118, 0.98)",
+        "nutrition": {
+            "servingSize": "12 fl oz (355 mL)",
+            "calories": 0,
+            "fat": 0,
+            "sodium": 35,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0
+        },
+        "ingredients": "CARBONATED WATER, CARAMEL COLOR, PHOSPHORIC ACID, NATURAL FLAVOR, ASPARTAME, CAFFEINE, POTASSIUM SORBATE (PRESERVES FRESHNESS), POTASSIUM CITRATE, ACESULFAME POTASSIUM, CITRIC ACID, PHENYLKETONURICS: CONTAINS PHENYLALANINE",
+        "href": "http://www.pepsicobeveragefacts.com/Home/Product?formula=F0000002777&form=RTD&size=12",
+        "last_updated": "Last updated on April 03, 2018",
+        "metadata": {
+            "class": ""
+        }
+    },
+    {
+        "type": "regular",
+        "slug": "pepsi-real-sugar",
+        "title": "Pepsi Real Sugar",
+        "image_source": "https://www.pepsi.com/en-us/uploads/images/can-real-sugar-reg.png?mtime=20180110134758",
+        "background_color": "rgba(0, 101, 195, 0.9)",
+        "background_color_detail": "rgb(0, 101, 195)",
+        "nutrition": {
+            "servingSize": "12 fl oz (355 mL)",
+            "calories": 150,
+            "fat": 0,
+            "sodium": 30,
+            "carbs": 40,
+            "sugar": 40,
+            "protein": 0
+        },
+        "ingredients": "CARBONATED WATER, SUGAR, CARAMEL COLOR, PHOSPHORIC ACID, CAFFEINE, NATURAL FLAVOR",
+        "href": "http://www.pepsicobeveragefacts.com/Home/product?formula=35009*A9*01-01&form=RTD&size=12",
+        "last_updated": "Last updated on January 11, 2018",
+        "metadata": {
+            "class": ""
+        }
+    },
+    {
+        "type": "regular",
+        "slug": "pepsi-caffeine-free",
+        "title": "Pepsi Caffeine Free",
+        "image_source": "https://www.pepsi.com/en-us/uploads/images/can-pepsi-caffeine-free.png?mtime=20180110134746",
+        "background_color": "rgba(187, 147, 57, 0.8)",
+        "background_color_detail": "rgb(187, 147, 57)",
+        "nutrition": {
+            "servingSize": "12 fl oz (355 mL)",
+            "calories": 150,
+            "fat": 0,
+            "sodium": 30,
+            "carbs": 41,
+            "sugar": 41,
+            "protein": 0
+        },
+        "ingredients": "CARBONATED WATER, HIGH FRUCTOSE CORN SYRUP, CARAMEL COLOR, SUGAR, PHOSPHORIC ACID, CITRIC ACID, NATURAL FLAVOR",
+        "href": "http://www.pepsicobeveragefacts.com/Home/Product?formula=07044*05*01-01&form=RTD&size=12",
+        "last_updated": "Last updated on January 11, 2018",
+        "metadata": {
+            "class": ""
+        }
+    },
+    {
+        "type": "regular",
+        "slug": "diet-pepsi-caffeine-free",
+        "title": "Diet Pepsi Caffeine Free",
+        "image_source": "https://www.pepsi.com/en-us/uploads/images/Diet-Pepsi-CaffFree-v2_12oz.png?mtime=20180215173733",
+        "background_color": "rgba(190, 190, 190, 0.8)",
+        "background_color_detail": "rgb(190, 190, 190)",
+        "nutrition": {
+            "servingSize": "12 fl oz (355 mL)",
+            "calories": 0,
+            "fat": 0,
+            "sodium": 50,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0
+        },
+        "ingredients": "CARBONATED WATER, CARAMEL COLOR, ASPARTAME, PHOSPHORIC ACID, POTASSIUM BENZOATE (PRESERVES FRESHNESS), CITRIC ACID, NATURAL FLAVOR, ACESULFAME POTASSIUM ",
+        "href": "http://www.pepsicobeveragefacts.com/Home/Product?formula=F0000007856&form=RTD&size=12",
+        "last_updated": "Last updated on August 13, 2018",
+        "metadata": {
+            "class": ""
+        }
+    }
+]

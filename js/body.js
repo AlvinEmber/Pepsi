@@ -29,4 +29,7 @@ $(function () {
             window.location.href = "./product.html"
         })
     })
+    $(".segment .unit:eq(0)").on("click", function () {
+        window.location.href = "./index.html";
+    })
 })

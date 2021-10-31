@@ -2,7 +2,7 @@ var i = 0;
 $(function () {
     $(".mainNav").before('<div class="outDiv"></div>');
     var screenHeight = document.body.clientHeight || document.documentElement.clientHeight;
-    console.log(screenHeight);
+    // console.log(screenHeight);
     screenHeight = screenHeight / 10;
     $(".outDiv").css("height", screenHeight + "rem");
     $(".outDiv").slideUp(300);

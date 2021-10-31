@@ -8,7 +8,7 @@
 a {
     text-decoration: none;
     /* 设置点击后取消默认高亮效果 */
-    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 /* 1rem = 10px */
 html {
@@ -32,7 +32,7 @@ ul,li {
 }
 input {
     /* 设置取消iOS的默认按钮样式 */
-    -webkit-appearance: none;
+    /* -webkit-appearance: none; */
 }
 a,
 img {
