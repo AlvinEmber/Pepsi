@@ -1,5 +1,9 @@
 .menuMain {
     position: fixed;
+<<<<<<< HEAD
+    z-index: 100;
+=======
+>>>>>>> a19fe91dd01bd2201022f2008a48a2ce9b82cd45
     display: flex;
     justify-content: space-evenly;
     align-items: center;
