@@ -1,20 +1,19 @@
 // 全局js
-window.addEventListener("load", function () {
-    // 头部
-    // navLogo 点击返回主页
-    var navLogo = document.getElementsByClassName("navLogo")[0];
-    // navTitle 点击打开商品菜单
-    var navTitle = document.getElementsByClassName("navTitle")[0];
-    // navListIcon 点击打开下拉菜单
-    var navListIcon = document.getElementsByClassName("navListIcon")[0];
-    // touch.on(navListIcon, 'tap', function () {
-    //     $(".menuMain").toggle(300);
-    // })
-})
 
 $(function () {
+    var outDiv = '<div class="outDiv">123</div>';
+    $(".mainNav").before('<div class="outDiv"></div>');
+    var screenHeight = document.body.clientHeight || document.documentElement.clientHeight;
+    console.log(screenHeight);
+    screenHeight = screenHeight / 10;
+    $(".outDiv").css("height", screenHeight + "rem");
+    $(".outDiv").slideUp();
+
     $(".navLogo").on("click", function () {
-        window.location.href = "./index.html"
+        $(".outDiv").slideDown(300, function () {
+            window.location.href = "./index.html";
+        });
+
     })
 
     $(".menuMain").stop().hide();
@@ -26,9 +25,11 @@ $(function () {
 
     $(".productList").hide();
     $(".navTitle").on("click", function () {
-        window.location.href = "./product.html"
+        $(".outDiv").slideDown(300, function () {
+            window.location.href = "./product.html"
+        })
     })
-    $(".segment .unit:eq(0)").on("click",function(){
-        window.location.href="./index.html";
+    $(".segment .unit:eq(0)").on("click", function () {
+        window.location.href = "./index.html";
     })
 })
