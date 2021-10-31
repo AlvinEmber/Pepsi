@@ -9,7 +9,7 @@ $(function () {
 
     $(".navLogo").on("click", function () {
         $(".outDiv").slideDown(300, function () {
-            window.location.href = "./index.html";
+            window.location.href = "./index1.html";
         });
     })
 
@@ -70,7 +70,7 @@ $(function () {
 
     $(".navTitle").on("click", function () {
         $(".outDiv").slideDown(300, function () {
-            window.location.href = "./index.html";
+            window.location.href = "./index1.html";
         });
     });
 })

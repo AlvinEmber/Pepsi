@@ -4,14 +4,14 @@ $(function () {
     var outDiv = '<div class="outDiv">123</div>';
     $(".mainNav").before('<div class="outDiv"></div>');
     var screenHeight = document.body.clientHeight || document.documentElement.clientHeight;
-    console.log(screenHeight);
+    // console.log(screenHeight);
     screenHeight = screenHeight / 10;
     $(".outDiv").css("height", screenHeight + "rem");
     $(".outDiv").slideUp();
 
     $(".navLogo").on("click", function () {
         $(".outDiv").slideDown(300, function () {
-            window.location.href = "./index.html";
+            window.location.href = "./index1.html";
         });
 
     })
@@ -30,6 +30,6 @@ $(function () {
         })
     })
     $(".segment .unit:eq(0)").on("click", function () {
-        window.location.href = "./index.html";
+        window.location.href = "./index1.html";
     })
 })
