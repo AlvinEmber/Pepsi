@@ -7,13 +7,15 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Pepsi.com</title>
+    <link rel="stylesheet" href="../201603071642/css/normalize.css">
+    <link rel="stylesheet" href="../201603071642/css/htmleaf-demo.css">
+    <link rel="stylesheet" href="../201603071642/css/hamburgers.css">
     <script src="../js/jQuery.min.js"></script>
     <script src="../js/touch.min.js"></script>
     <script src="../js/body.js"></script>
     <script src="../js/indextab.js"></script>
     <script src="../js/donghua.js"></script>
     <script src="../js/video.js"></script>
-    <!-- <script src="../js/mengban.js"></script> -->
     <link rel="stylesheet" href="../css/body.css">
     <link rel="stylesheet" href="../css/index/index1.css">
     <link rel="stylesheet" href="../css/index/index2.css">
@@ -26,21 +28,21 @@
     <nav class="mainNav">
         <img class="navLogo" src="../img/index/navLogo.png" alt="">
         <span class="navTitle">VIEW PRODUCTS</span>
-        <img class="navListIcon" src="../img/icon/单列列表.png" alt="">
+        <!-- <img class="navListIcon" src="../img/icon/单列列表.png" alt=""> -->
+        <div class="hamburger hamburger--spin-r navListIcon">
+            <div class="hamburger-box">
+                <div class="hamburger-inner"></div>
+            </div>
+        </div>
     </nav>
     <!-- 点击列表按钮 出现列表菜单 -->
     <link rel="stylesheet" href="../css/index/menu.css">
     <section class="menuMain">
-        <nav class="mainNav">
-            <img class="navLogo" src="../img/index/navLogo.png" alt="">
-            <span class="navTitle">VIEW PRODUCTS</span>
-            <img class="navListIcon" src="../img/icon/单列列表.png" alt="">
-        </nav>
         <div class="listTab">
-            <a href="">WHAT'S NEW</a>
-            <a href="./register.html">NEWSLETTER</a>
-            <a href="./page-home.html">CONTACT US</a>
-            <a href="./product.html">BUY PEPSI PRODUNCTS</a>
+            <a class="whatisnew" href="./index1.html#blue_colo">WHAT'S NEW</a>
+            <a href="./search.html">NEWSLETTER</a>
+            <a href="./register.html">CONTACT US</a>
+            <a href="./page-home.html">BUY PEPSI PRODUNCTS</a>
         </div>
     </section>
     <!-- 商品列表 ProductList -->
@@ -62,8 +64,13 @@
                 </div>
 
                 <div>
-                    <span>BUY NOW</span>
+                    <span id="buynow">BUY NOW</span>
                 </div>
+                <script>
+                    $("#buynow").click(function () {
+                        window.location.href = "./product.html"
+                    })
+                </script>
             </div>
             <div></div>
             <div></div>
@@ -75,14 +82,14 @@
         <div class="tab">
             <div class="tab_con">
                 <ul>
-                    <li class="item" style="display: block;">
+                    <li class="item tab1" style="display: block;">
                         <div class="watch_video" id="watch_video2">
                             <img src="../img/index/播放.png" alt="">
                             <span>WATCH NOW</span>
                         </div>
                         <span>BETTER WITH PEPSI | RIBS</span>
                     </li>
-                    <li class="item">
+                    <li class="item tab2">
                         <div class="watch_video" id="watch_video3">
                             <img src="../img/index/播放.png" alt="">
                             <span>WATCH NOW</span>
@@ -93,8 +100,8 @@
             </div>
             <div class="tab_list">
                 <ul>
-                    <li class="current"></li>
-                    <li></li>
+                    <li class="current tab3"></li>
+                    <li class="tab4"></li>
                 </ul>
             </div>
         </div>
@@ -124,6 +131,7 @@
             </div>
         </div>
         <div class="black_colo  ">
+            <a id="blue_colo"></a>
             <img src="../img/index/can-pzs.png" alt="" class="toleft">
         </div>
         <div class="blue_colo ">

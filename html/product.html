@@ -7,9 +7,9 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Pepsi.com</title>
-    <!-- <link rel="stylesheet" href="../201603071642/css/normalize.css">
+    <link rel="stylesheet" href="../201603071642/css/normalize.css">
     <link rel="stylesheet" href="../201603071642/css/htmleaf-demo.css">
-    <link rel="stylesheet" href="../201603071642/css/hamburgers.css"> -->
+    <link rel="stylesheet" href="../201603071642/css/hamburgers.css">
     <script src="../js/jQuery.min.js"></script>
     <script src="../js/touch.min.js"></script>
     <script src="../js/product.js"></script>
@@ -25,30 +25,21 @@
     <nav class="mainNav">
         <img class="navLogo" src="../img/index/navLogo.png" alt="">
         <span class="navTitle">VIEW PRODUCTS</span>
-        <img class="navListIcon" src="../img/icon/单列列表.png" alt="">
-        <!-- <div class="hamburger hamburger--spin-r">
+        <!-- <img class="navListIcon" src="../img/icon/单列列表.png" alt=""> -->
+        <div class="hamburger hamburger--spin-r navListIcon">
             <div class="hamburger-box">
                 <div class="hamburger-inner"></div>
             </div>
-        </div> -->
+        </div>
     </nav>
     <!-- 点击列表按钮 出现列表菜单 -->
     <link rel="stylesheet" href="../css/index/menu.css">
     <section class="menuMain">
-        <nav class="mainNav">
-            <img class="navLogo" src="../img/index/navLogo.png" alt="">
-            <img class="navListIcon" src="../img/icon/叉.png" alt="">
-            <!-- <div class="hamburger hamburger--spin-r">
-                <div class="hamburger-box">
-                    <div class="hamburger-inner"></div>
-                </div>
-            </div> -->
-        </nav>
         <div class="listTab">
-            <a href="">WHAT'S NEW</a>
-            <a href="">NEWSLETTER</a>
-            <a href="">CONTACT US</a>
-            <a href="">BUY PEPSI PRODUNCTS</a>
+            <a class="whatisnew" href="./index1.html#blue_colo">WHAT'S NEW</a>
+            <a href="./search.html">NEWSLETTER</a>
+            <a href="./register.html">CONTACT US</a>
+            <a href="./page-home.html">BUY PEPSI PRODUNCTS</a>
         </div>
     </section>
     <!-- 商品列表 ProductList -->
@@ -97,5 +88,18 @@
         </section>
     </section>
 </body>
+
+<!-- <script>
+    var forEach = function (t, o, r) { if ("[object Object]" === Object.prototype.toString.call(t)) for (var c in t) Object.prototype.hasOwnProperty.call(t, c) && o.call(r, t[c], c, t); else for (var e = 0, l = t.length; l > e; e++)o.call(r, t[e], e, t) };
+
+    var hamburgers = document.querySelectorAll(".hamburger");
+    if (hamburgers.length > 0) {
+        forEach(hamburgers, function (hamburger) {
+            hamburger.addEventListener("click", function () {
+                this.classList.toggle("is-active");
+            }, false);
+        });
+    }
+</script> -->
 
 </html>
