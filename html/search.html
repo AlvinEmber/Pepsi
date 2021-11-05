@@ -1,39 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Pepsi.com</title>
+    <link rel="stylesheet" href="../201603071642/css/normalize.css">
+    <link rel="stylesheet" href="../201603071642/css/htmleaf-demo.css">
+    <link rel="stylesheet" href="../201603071642/css/hamburgers.css">
     <script src="../js/jQuery.min.js"></script>
     <script src="../js/touch.min.js"></script>
     <script src="../js/body.js"></script>
     <link rel="stylesheet" href="../css/body.css">
     <link rel="stylesheet" href="../css/dev/search.css">
     <script src='../js/stopExecutionOnTimeout.js?t=1'></script>
-	<script src="../js/jquery-1.11.0.min.js"></script>
-	<script src='../js/snap.svg-min.js'></script>
+    <script src="../js/jquery-1.11.0.min.js"></script>
+    <script src='../js/snap.svg-min.js'></script>
     <link rel="stylesheet" href="../css/dev/serch-.css">
 </head>
+
 <body>
     <!-- 头部模块 mainNav -->
     <link rel="stylesheet" href="../css/index/nav.css">
     <nav class="mainNav">
         <img class="navLogo" src="../img/index/navLogo.png" alt="">
-        <img class="navListIcon" src="../img/icon/单列列表.png" alt="">
+        <span class="navTitle">VIEW PRODUCTS</span>
+        <!-- <img class="navListIcon" src="../img/icon/单列列表.png" alt=""> -->
+        <div class="hamburger hamburger--spin-r navListIcon">
+            <div class="hamburger-box">
+                <div class="hamburger-inner"></div>
+            </div>
+        </div>
     </nav>
     <!-- 点击列表按钮 出现列表菜单 -->
     <link rel="stylesheet" href="../css/index/menu.css">
     <section class="menuMain">
-        <nav class="mainNav">
-            <img class="navLogo" src="../img/index/navLogo.png" alt="">
-            <img class="navListIcon" src="../img/icon/单列列表.png" alt="">
-        </nav>
         <div class="listTab">
-            <a href="">WHAT'S NEW</a>
-            <a href="./register.html">NEWSLETTER</a>
-            <a href="">CONTACT US</a>
-            <a href="">BUY PEPSI PRODUNCTS</a>
+            <a class="whatisnew" href="./index1.html#blue_colo">WHAT'S NEW</a>
+            <a href="./search.html">NEWSLETTER</a>
+            <a href="./register.html">CONTACT US</a>
+            <a href="./page-home.html">BUY PEPSI PRODUNCTS</a>
         </div>
     </section>
     <main>
@@ -42,20 +50,21 @@
                 <p>We'e here tp help.</p>
                 <div class="search">
                     <svg class="search-svg" viewBox="0 0 320 70"
-                         data-init="M160,3 L160,3 a27,27 0 0,1 0,54 L160,57 a27,27 0 0,1 0,-54 M197,67 181.21,51.21"
-                         data-mid="M160,3 L160,3 a27,27 0 0,1 0,54 L160,57 a27,27 0 0,1 0,-54 M179.5,49.5 179.5,49.5"
-                         data-active="M27,3 L293,3 a27,27 0 0,1 0,54 L27,57 a27,27 0 0,1 0,-54 M179.5,49.5 179.5,49.5">
-                      <path class="search-svg__path" d="M160,3 L160,3 a27,27 0 0,1 0,54 L160,57 a27,27 0 0,1 0,-54 M197,67 181.21,51.21" />
+                        data-init="M160,3 L160,3 a27,27 0 0,1 0,54 L160,57 a27,27 0 0,1 0,-54 M197,67 181.21,51.21"
+                        data-mid="M160,3 L160,3 a27,27 0 0,1 0,54 L160,57 a27,27 0 0,1 0,-54 M179.5,49.5 179.5,49.5"
+                        data-active="M27,3 L293,3 a27,27 0 0,1 0,54 L27,57 a27,27 0 0,1 0,-54 M179.5,49.5 179.5,49.5">
+                        <path class="search-svg__path"
+                            d="M160,3 L160,3 a27,27 0 0,1 0,54 L160,57 a27,27 0 0,1 0,-54 M197,67 181.21,51.21" />
                     </svg>
                     <input type="text" class="search-input" />
                     <div class="search-close"></div>
-                  </div>
+                </div>
             </div>
         </div>
         <p>Featured Articles</p>
         <div class="how">
             <div class="how-">
-                <p>HOW DID PEPSI GET ITS  NAME？</p>
+                <p>HOW DID PEPSI GET ITS NAME？</p>
                 <span>Learn more</span>
             </div>
         </div>
@@ -74,7 +83,7 @@
         <footer>
             <div class="ft"></div>
             <div class="ter">
-               <p>© 2021 PepsiCo . All Rights Reserved.</p>
+                <p>© 2021 PepsiCo . All Rights Reserved.</p>
                 <ul>
                     <li><a href="">About Us</a></li>
                     <li><a href="">Site Map</a></li>
@@ -85,38 +94,39 @@
         </footer>
     </main>
 </body>
+
 </html>
 <script>
-	$(document).ready(function () {
-	    var $search = $('.search'), $input = $('.search-input'), $close = $('.search-close'), $svg = $('.search-svg'), $path = $('.search-svg__path')[0], initD = $svg.data('init'), midD = $svg.data('mid'), finalD = $svg.data('active'), backDelay = 400, midAnim = 200, bigAnim = 400, animating = false;
-	    $(document).on('click', '.search:not(.active)', function () {
-	        if (animating)
-	            return;
-	        animating = true;
-	        $search.addClass('active');
-	        Snap($path).animate({ 'path': midD }, midAnim, mina.backin, function () {
-	            Snap($path).animate({ 'path': finalD }, bigAnim, mina.easeinout, function () {
-	                $input.addClass('visible');
-	                $input.focus();
-	                $close.addClass('visible');
-	                animating = false;
-	            });
-	        });
-	    });
-	    $(document).on('click', '.search-close', function () {
-	        if (animating)
-	            return;
-	        animating = true;
-	        $input.removeClass('visible');
-	        $close.removeClass('visible');
-	        $search.removeClass('active');
-	        setTimeout(function () {
-	            Snap($path).animate({ 'path': midD }, bigAnim, mina.easeinout, function () {
-	                Snap($path).animate({ 'path': initD }, midAnim, mina.easeinout, function () {
-	                    animating = false;
-	                });
-	            });
-	        }, backDelay);
-	    });
-	});
-	</script>
+    $(document).ready(function () {
+        var $search = $('.search'), $input = $('.search-input'), $close = $('.search-close'), $svg = $('.search-svg'), $path = $('.search-svg__path')[0], initD = $svg.data('init'), midD = $svg.data('mid'), finalD = $svg.data('active'), backDelay = 400, midAnim = 200, bigAnim = 400, animating = false;
+        $(document).on('click', '.search:not(.active)', function () {
+            if (animating)
+                return;
+            animating = true;
+            $search.addClass('active');
+            Snap($path).animate({ 'path': midD }, midAnim, mina.backin, function () {
+                Snap($path).animate({ 'path': finalD }, bigAnim, mina.easeinout, function () {
+                    $input.addClass('visible');
+                    $input.focus();
+                    $close.addClass('visible');
+                    animating = false;
+                });
+            });
+        });
+        $(document).on('click', '.search-close', function () {
+            if (animating)
+                return;
+            animating = true;
+            $input.removeClass('visible');
+            $close.removeClass('visible');
+            $search.removeClass('active');
+            setTimeout(function () {
+                Snap($path).animate({ 'path': midD }, bigAnim, mina.easeinout, function () {
+                    Snap($path).animate({ 'path': initD }, midAnim, mina.easeinout, function () {
+                        animating = false;
+                    });
+                });
+            }, backDelay);
+        });
+    });
+</script>

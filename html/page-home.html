@@ -7,6 +7,9 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Pepsi.com</title>
+    <link rel="stylesheet" href="../201603071642/css/normalize.css">
+    <link rel="stylesheet" href="../201603071642/css/htmleaf-demo.css">
+    <link rel="stylesheet" href="../201603071642/css/hamburgers.css">
     <script src="../js/jQuery.min.js"></script>
     <script src="../js/touch.min.js"></script>
     <script src="../js/body.js"></script>
@@ -19,20 +22,22 @@
     <link rel="stylesheet" href="../css/index/nav.css">
     <nav class="mainNav">
         <img class="navLogo" src="../img/index/navLogo.png" alt="">
-        <img class="navListIcon" src="../img/icon/单列列表.png" alt="">
+        <span class="navTitle">VIEW PRODUCTS</span>
+        <!-- <img class="navListIcon" src="../img/icon/单列列表.png" alt=""> -->
+        <div class="hamburger hamburger--spin-r navListIcon">
+            <div class="hamburger-box">
+                <div class="hamburger-inner"></div>
+            </div>
+        </div>
     </nav>
     <!-- 点击列表按钮 出现列表菜单 -->
     <link rel="stylesheet" href="../css/index/menu.css">
     <section class="menuMain">
-        <nav class="mainNav">
-            <img class="navLogo" src="../img/index/navLogo.png" alt="">
-            <img class="navListIcon" src="../img/icon/单列列表.png" alt="">
-        </nav>
         <div class="listTab">
-            <a href="">WHAT'S NEW</a>
-            <a href="./register.html">NEWSLETTER</a>
-            <a href="">CONTACT US</a>
-            <a href="">BUY PEPSI PRODUNCTS</a>
+            <a class="whatisnew" href="./index1.html#blue_colo">WHAT'S NEW</a>
+            <a href="./search.html">NEWSLETTER</a>
+            <a href="./register.html">CONTACT US</a>
+            <a href="./page-home.html">BUY PEPSI PRODUNCTS</a>
         </div>
     </section>
     <main>
@@ -52,37 +57,77 @@
                 <span>PEPSI</span>
                 <span> NEAR YOU.</span>
             </div>
-            <div class="you">You can find us in stores nationwide or online. 
-                Search here to find us in stores  or click the buy online button.</div>
-                <div class="su">
-                    <input type="text" name="input" id="">
-                    <button class="button">FIND</button>
-                </div>
+            <div class="you">You can find us in stores nationwide or online.
+                Search here to find us in stores or click the buy online button.</div>
+            <div class="su">
+                <input type="text" name="input" id="">
+                <button class="button">FIND</button>
+            </div>
         </div>
         <!-- 可乐 -->
         <div class="key">
-           <ul>
-               <li id="li"><span><img src="../img/key/1.png" alt=""></span><span>PEPSI</span><div class="mb"><img src="../img/icon/对勾 .png" alt=""></div></li>
-               <li id="li"><span><img src="../img/key/2.png" alt=""></span><span>PEPSI ZERO SUGAR</span><div class="mb"><img src="../img/icon/对勾 .png" alt=""></div></li>
-               <li id="li"><span><img src="../img/key/3.png" alt=""></span><span>PEPSI ZERO SUGAR WILD CHERRY</span><div class="mb"><img src="../img/icon/对勾 .png" alt=""></div></li>
-               <li id="li"><span><img src="../img/key/4.png" alt=""></span><span>PEPAI AODA SHOP CREAM SODE</span><div class="mb"><img src="../img/icon/对勾 .png" alt=""></div></li>
-               <li id="li"><span><img src="../img/key/5.png" alt=""></span><span>PEPSI SODA SHOP BLACK CHERRY</span><div class="mb"><img src="../img/icon/对勾 .png" alt=""></div></li>
-               <li id="li"><span><img src="../img/key/6.png" alt=""></span><span>PEPSI BLUE</span><div class="mb"><img src="../img/icon/对勾 .png" alt=""></div></li>
-               <li id="li"><span><img src="../img/key/7.png" alt=""></span><span>PEPSI MANGO ZERO SUGAR</span><div class="mb"><img src="../img/icon/对勾 .png" alt=""></div></li>
-               <li id="li"><span><img src="../img/key/8.png" alt=""></span><span> PEPSI ZERO SUGAR VANILLA</span><div class="mb"><img src="../img/icon/对勾 .png" alt=""></div></li>
-               <li id="li"><span><img src="../img/key/9.png" alt=""></span><span>DIET PEPSI</span><div class="mb"><img src="../img/icon/对勾 .png" alt=""></div></li>
-               <li id="li"><span><img src="../img/key/10.png" alt=""></span><span>PEPSI CAFFEINE FREE</span><div class="mb"><img src="../img/icon/对勾 .png" alt=""></div></li>
-               <li id="li"><span><img src="../img/key/11.png" alt=""></span><span>DIET PEPSI CAFFEINE FREE</span><div class="mb"><img src="../img/icon/对勾 .png" alt=""></div></li>
-               <li id="li"><span><img src="../img/key/12.png" alt=""></span><span>WILD CHERRY PEPSI</span><div class="mb"><img src="../img/icon/对勾 .png" alt=""></div></li>
-               <li id="li"><span><img src="../img/key/13.png" alt=""></span><span>DIET PEPSI WILD CHERRY</span><div class="mb"><img src="../img/icon/对勾 .png" alt=""></div></li>
-               <li id="li"><span><img src="../img/key/14.png" alt=""></span><span>PEPSI WITH REAL SUGAR</span><div class="mb"><img src="../img/icon/对勾 .png" alt=""></div></li>
-               <li id="li"><span><img src="../img/key/15.png" alt=""></span><span>PEPSI VANILLA</span><div class="mb"><span><img src="../img/icon/对勾 .png" alt=""></div></li>
-               <li id="li"><span><img src="../img/key/16.png" alt=""></span><span>PEPSI MANGO</span><div class="mb"><img src="../img/icon/对勾 .png" alt=""></div></li>
-               <li id="li"><span><img src="../img/key/17.png" alt=""></span><span>PEPSI BERRY</span><div class="mb"><img src="../img/icon/对勾 .png" alt=""></div></li>
-               <li id="li"><span><img src="../img/key/18.png" alt=""></span><span>PEPSI PINEAPPLE</span><div class="mb"><img src="../img/icon/对勾 .png" alt=""></div></li>
-               <li id="li"><span><img src="../img/key/19.png" alt=""></span><span>PEPSI CHERRY VANILLA</span><div class="mb"><img src="../img/icon/对勾 .png" alt=""></div></li>
-               <li id="li"><span><img src="../img/key/20.png" alt=""></span><span>PEPSI 1893</span><div class="mb"><img src="../img/icon/对勾 .png" alt=""></div></li>
-           </ul>
+            <ul>
+                <li id="li"><span><img src="../img/key/1.png" alt=""></span><span>PEPSI</span>
+                    <div class="mb"><img src="../img/icon/对勾 .png" alt=""></div>
+                </li>
+                <li id="li"><span><img src="../img/key/2.png" alt=""></span><span>PEPSI ZERO SUGAR</span>
+                    <div class="mb"><img src="../img/icon/对勾 .png" alt=""></div>
+                </li>
+                <li id="li"><span><img src="../img/key/3.png" alt=""></span><span>PEPSI ZERO SUGAR WILD CHERRY</span>
+                    <div class="mb"><img src="../img/icon/对勾 .png" alt=""></div>
+                </li>
+                <li id="li"><span><img src="../img/key/4.png" alt=""></span><span>PEPAI AODA SHOP CREAM SODE</span>
+                    <div class="mb"><img src="../img/icon/对勾 .png" alt=""></div>
+                </li>
+                <li id="li"><span><img src="../img/key/5.png" alt=""></span><span>PEPSI SODA SHOP BLACK CHERRY</span>
+                    <div class="mb"><img src="../img/icon/对勾 .png" alt=""></div>
+                </li>
+                <li id="li"><span><img src="../img/key/6.png" alt=""></span><span>PEPSI BLUE</span>
+                    <div class="mb"><img src="../img/icon/对勾 .png" alt=""></div>
+                </li>
+                <li id="li"><span><img src="../img/key/7.png" alt=""></span><span>PEPSI MANGO ZERO SUGAR</span>
+                    <div class="mb"><img src="../img/icon/对勾 .png" alt=""></div>
+                </li>
+                <li id="li"><span><img src="../img/key/8.png" alt=""></span><span> PEPSI ZERO SUGAR VANILLA</span>
+                    <div class="mb"><img src="../img/icon/对勾 .png" alt=""></div>
+                </li>
+                <li id="li"><span><img src="../img/key/9.png" alt=""></span><span>DIET PEPSI</span>
+                    <div class="mb"><img src="../img/icon/对勾 .png" alt=""></div>
+                </li>
+                <li id="li"><span><img src="../img/key/10.png" alt=""></span><span>PEPSI CAFFEINE FREE</span>
+                    <div class="mb"><img src="../img/icon/对勾 .png" alt=""></div>
+                </li>
+                <li id="li"><span><img src="../img/key/11.png" alt=""></span><span>DIET PEPSI CAFFEINE FREE</span>
+                    <div class="mb"><img src="../img/icon/对勾 .png" alt=""></div>
+                </li>
+                <li id="li"><span><img src="../img/key/12.png" alt=""></span><span>WILD CHERRY PEPSI</span>
+                    <div class="mb"><img src="../img/icon/对勾 .png" alt=""></div>
+                </li>
+                <li id="li"><span><img src="../img/key/13.png" alt=""></span><span>DIET PEPSI WILD CHERRY</span>
+                    <div class="mb"><img src="../img/icon/对勾 .png" alt=""></div>
+                </li>
+                <li id="li"><span><img src="../img/key/14.png" alt=""></span><span>PEPSI WITH REAL SUGAR</span>
+                    <div class="mb"><img src="../img/icon/对勾 .png" alt=""></div>
+                </li>
+                <li id="li"><span><img src="../img/key/15.png" alt=""></span><span>PEPSI VANILLA</span>
+                    <div class="mb"><span><img src="../img/icon/对勾 .png" alt=""></div>
+                </li>
+                <li id="li"><span><img src="../img/key/16.png" alt=""></span><span>PEPSI MANGO</span>
+                    <div class="mb"><img src="../img/icon/对勾 .png" alt=""></div>
+                </li>
+                <li id="li"><span><img src="../img/key/17.png" alt=""></span><span>PEPSI BERRY</span>
+                    <div class="mb"><img src="../img/icon/对勾 .png" alt=""></div>
+                </li>
+                <li id="li"><span><img src="../img/key/18.png" alt=""></span><span>PEPSI PINEAPPLE</span>
+                    <div class="mb"><img src="../img/icon/对勾 .png" alt=""></div>
+                </li>
+                <li id="li"><span><img src="../img/key/19.png" alt=""></span><span>PEPSI CHERRY VANILLA</span>
+                    <div class="mb"><img src="../img/icon/对勾 .png" alt=""></div>
+                </li>
+                <li id="li"><span><img src="../img/key/20.png" alt=""></span><span>PEPSI 1893</span>
+                    <div class="mb"><img src="../img/icon/对勾 .png" alt=""></div>
+                </li>
+            </ul>
         </div>
         <footer>
             <div class="ft"></div>
@@ -97,17 +142,17 @@
             </div>
         </footer>
     </main>
-  
+
 </body>
 
 </html>
 <script>
     $(".mb").hide
-    $(function (){
-        $("li").click(function(){
-            if($(this).find(".mb").is(":hidden")){
+    $(function () {
+        $("li").click(function () {
+            if ($(this).find(".mb").is(":hidden")) {
                 $(this).find(".mb").fadeIn(500);
-            }else{
+            } else {
                 $(this).find(".mb").fadeOut(300);
             }
         })
